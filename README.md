@@ -9,7 +9,9 @@
 `git branch "nommbre de la rama"`
 `git branch`
 `git checkout "nombre de la rama que deseo cambiar"`
-
+`git remote add origin git@github.com:Jeisonlopez259911/node_3278524.git`
+`git branch -M master`
+`git push -u origin master`
 
 # 📁Estructura profesionales de API en Node.js
 
@@ -24,3 +26,7 @@ api-node
         |-utils **Funciones reutilizables**
         |-app.js **Configuracion de la aplicacion**
         |-server.js **Punto de arranque**
+    |-.gitignore
+    |-package-lock.json
+    |-package.json
+    |-README.md
